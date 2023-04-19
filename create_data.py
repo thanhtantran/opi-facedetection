@@ -18,7 +18,7 @@ if not os.path.isdir(path):
 # Load the cascade
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-webcam = cv2.VideoCapture('/dev/video10')
+webcam = cv2.VideoCapture("/dev/video1")
 
 # The program loops until it has 30 images of the face.
 count = 1
